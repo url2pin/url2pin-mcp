@@ -1,7 +1,11 @@
 # URL2Pin MCP server
 
 Turn any product or blog link into Pinterest pins, then schedule them to your boards, from
-Claude, ChatGPT, Cursor, VS Code or any app that supports the Model Context Protocol (MCP).
+Claude Desktop, Claude Code, Cursor, VS Code or any app that can run a local Model Context Protocol (MCP) server.
+
+> **Where it works:** this server runs on your own computer, so it needs an app that can start local
+> MCP servers (the ones listed below). It does **not** work in ChatGPT or in Claude on the web or phone
+> yet: those only connect to servers hosted online, and a hosted URL2Pin server is not available yet.
 
 > "Make 4 pins for https://www.amazon.com/dp/B0... and schedule them to my Kitchen board, one a day from tomorrow at 6pm."
 

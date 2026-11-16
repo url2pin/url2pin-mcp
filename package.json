@@ -1,7 +1,7 @@
 {
   "name": "url2pin-mcp",
-  "version": "0.1.0",
-  "description": "MCP server for URL2Pin: turn a product or blog link into Pinterest pins and schedule them, from Claude, ChatGPT, Cursor or any MCP client.",
+  "version": "0.1.1",
+  "description": "Pinterest MCP server for URL2Pin: turn a product or blog link into Pinterest pins and schedule them, from Claude Desktop, Claude Code, Cursor, VS Code or any local MCP client.",
   "mcpName": "com.url2pin/url2pin",
   "type": "module",
   "bin": {

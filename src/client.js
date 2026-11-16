@@ -3,7 +3,7 @@
 // any failure into a plain sentence for the assistant instead of a stack trace.
 
 export const DEFAULT_API_URL = 'https://csv2pin-backend.onrender.com';
-export const VERSION = '0.1.0';
+export const VERSION = '0.1.1';
 const REQUEST_TIMEOUT_MS = 60_000;
 
 export function createClient({ apiKey, apiUrl = DEFAULT_API_URL, fetchImpl = globalThis.fetch }) {
