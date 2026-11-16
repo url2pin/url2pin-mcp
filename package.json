@@ -1,0 +1,47 @@
+{
+  "name": "url2pin-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for URL2Pin: turn a product or blog link into Pinterest pins and schedule them, from Claude, ChatGPT, Cursor or any MCP client.",
+  "mcpName": "com.url2pin/url2pin",
+  "type": "module",
+  "bin": {
+    "url2pin-mcp": "src/index.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "pinterest",
+    "pinterest-pins",
+    "amazon-affiliate",
+    "social-media-scheduler",
+    "url2pin",
+    "claude",
+    "ai-agent"
+  ],
+  "homepage": "https://url2pin.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/url2pin/url2pin-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/url2pin/url2pin-mcp/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "zod": "4.6.7"
+  }
+}

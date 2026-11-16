@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.url2pin/url2pin",
+  "title": "URL2Pin",
+  "description": "Turn product and blog links into Pinterest pins, pick the right boards and schedule them.",
+  "websiteUrl": "https://url2pin.com",
+  "repository": {
+    "url": "https://github.com/url2pin/url2pin-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "url2pin-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "URL2PIN_API_KEY",
+          "description": "Your URL2Pin API key, from url2pin.com/my-account (API keys)",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}
